@@ -6,16 +6,15 @@ html, body {
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
     line-height: 1.7;
-    background-color: #ffffff93;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     min-height: 70px;
-    background-color: #6200ff96;
+    background-color: #FF9933;
     padding: 20px;
     align-items: center;
     margin: 0px 0px 25px 0px;
@@ -49,11 +48,11 @@ a:hover {
     height: 150px;
     padding: 10px;
     margin: 0px 0px 50px 0px;
+    text-align: center;
 }
 
 .Jumbotron h1 {
     font-size: 50px;
-
 }
 
 .Jumbotron p {
@@ -63,7 +62,7 @@ a:hover {
 .container{
     width: 100%;
     max-width: 1200px;
-    height: 430px;
+    height: 400px;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -79,6 +78,7 @@ a:hover {
     margin: 15px;
     text-align: center;
     transition: all 0.25;
+    background-color: rgba(255, 255, 255, 0.74);
 }
 .container.card:hover{
     transform: translatey(-15px);
@@ -104,20 +104,19 @@ a:hover {
     font-size: 500;
 }
 
-/*.blog {
-    display: flex;
-    width: 15px;
-    height: 15px;
-    align-items: center;
-    padding: 15px;
-    margin: 100px 10px 100px 10px;
-}*/
-
 .adicional{
-    margin: 100px 0 0 10px;
+    margin: 70px 0 70px 10px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.adicional img {
+    align-items: right;
+    width: 250px;
+
 }
 
 footer {
