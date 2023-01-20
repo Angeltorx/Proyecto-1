@@ -233,3 +233,8 @@ footer {
     justify-items:  center;
     margin-bottom: 50px;
 }
+.catalogo {
+    text-align: center;
+    margin: 50px;
+    color:blue;
+}
