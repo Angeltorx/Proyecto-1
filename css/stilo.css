@@ -236,5 +236,48 @@ footer {
 .catalogo {
     text-align: center;
     margin: 50px;
-    color:blue;
+    color:#026E81;
+    border-radius: solid 1px;
+}
+.conocenos{
+    justify-content: center;
+    padding: 30px;
+    margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conocenos h1 {
+    color: #026E81;
+    text-align: center;
+    font-size: 30px;
+}
+
+.conocenos p{
+    text-align: center;
+    color:black;
+    margin:50px;
+}
+.politicas {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.politicas h1 {
+    text-align:center;
+    font-size: 40px;
+    margin-top:15px;
+    margin-bottom: 30px;
+}
+
+.politicas h2{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: start;
+    margin-left: 15px;
+}
+
+.politicas p {
+    color: #000000;
+    margin-bottom: 15px;
+
 }
