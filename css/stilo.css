@@ -171,19 +171,23 @@ footer {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.footer2 h3 {
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+
+.footer2 p {
+    padding: 5px;
+    margin-bottom: 2px;
 }
 
 .logo1 {
     width: 30px;
-}
-
-@media (max-width:700px){
-    header {
-        flex-direction: column;
-    }
-    nav {
-        padding: 10px 0px;
-    }
 }
 
 .form {
@@ -263,6 +267,12 @@ footer {
     margin-top: 25px;
 }
 
+.imagen-container p{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+}
+
 .conocenos h1 {
     color: #026E81;
     text-align: center;
@@ -286,7 +296,6 @@ footer {
     text-align: center;
 }
 
-
 .politicas {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -300,7 +309,7 @@ footer {
 
 .politicas h2{
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 15px;
     text-align: start;
     margin-left: 2rem;
@@ -308,6 +317,31 @@ footer {
 
 .politicas p {
     color: #000000;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 
+}
+
+@media (max-width:700px){
+    header {
+        flex-direction: column;
+    }
+    nav {
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width:700px){
+    #productos {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:800px){
+    .trabajo-equipo {
+        flex-direction: column;
+    }
+    div{
+        flex-direction: column;
+        align-items: center;
+    }
 }
