@@ -203,9 +203,9 @@ footer {
 .form img {
     display: flex;
     justify-content: center;
-    width: 400px;
-    height: 100%; /*chequear*/
-    padding: 100px;
+    width: 375px;
+    height: 100%;
+    margin-top: 50px;
 }
 
 .form input {
